@@ -10,6 +10,6 @@ class ForLoop1
 			{
 				int n = fact*i;
 			}
-				System.out.println(n+ "! = " +fact);
+		System.out.println(n+ "! = " +fact);
 	}
 }
