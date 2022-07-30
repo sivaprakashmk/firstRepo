@@ -1,0 +1,22 @@
+class FanShop
+{
+	public static void main(String[] args) 
+	{
+		Fan f1 = new Fan();
+		f1.brand = "crompton";
+		f1.colour ="red";
+		f1.price =2000;
+		System.out.println("item 1 :" +f1);
+		System.out.println("brand :" +f1.brand);
+		System.out.println("brand :" +f1.colour);
+		System.out.println("offer price  :" +f1.price);
+		Fan f2 = new Fan();
+		f2.brand = "USHA";
+		f2.colour ="blue";
+		f2.price =1500;
+		System.out.println("item 2 :" +f2);
+		System.out.println("brand :" +f2.brand);
+		System.out.println("colour :" +f2.colour);
+		System.out.println("offer price :" +f2.price);
+	}
+}

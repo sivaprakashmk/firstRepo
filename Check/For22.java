@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class For22
+{
+	public static void main(String[] args)
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println(" enter the n value ");
+		int n = s.nextInt();
+		int Fact = 1;
+		for(int i = 1; i<=n; i++)
+		{
+			Fact =Fact*i;
+		}
+			System.out.println(n+ "! is ;" +Fact);
+	}
+}
+	 
+

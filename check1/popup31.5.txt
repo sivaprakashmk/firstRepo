@@ -1,0 +1,7 @@
+WinWaitActive("Open")
+Sleep(3000)
+ControlFocus("Open","","Edit1"
+Sleep(3000)
+Send("C:\Users\Admin\Downloads\WhatsApp Image 2021-12-12 at 09.55.45.jpeg")
+Sleep(3000)
+ControlClick("Open","&Open",Button1")

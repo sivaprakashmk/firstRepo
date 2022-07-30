@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class  Factorial2
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println(" enter a number ");
+		int n = s.nextInt();
+		fact(n);
+	}
+	public static void fact(int n)
+	{
+		int fact = 1;
+		for(int i = 1; i<=n; i++)
+		{
+			fact = fact*i;
+		}
+		System.out.println(n+ " ! : " +fact);
+	}
+}

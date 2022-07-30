@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Odd_Mn
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println(" enter start number ");
+		Int m = s.nextInt();
+		System.out.println("enter the end value ");
+		int n = s.nextInt();
+		
+		{
+			public static void odd(int m, int n)
+
+		System.out.println("Hello World!");
+	}
+}

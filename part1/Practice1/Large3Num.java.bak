@@ -1,0 +1,17 @@
+class Large3Num 
+{
+	public static void main(String[] args) 
+	{
+		int a = 10, b = 8, c = 11;
+		if(a>b && a>c)
+		{
+			System.out.println(A+ "is the larger Num ");
+		}
+		else if(b>c)
+		{
+			System.out.println(b+" is the larger Num ");
+		}		
+		else
+			System.out.println(c+" is the larger Num ");
+	}
+}
